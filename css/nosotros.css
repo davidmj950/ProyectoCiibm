@@ -1,0 +1,116 @@
+
+.contenido-principal {
+    background-color: #e3dad3;
+    padding: 1.2rem;
+    border-radius: 10px;
+}
+
+.testimonial {
+    margin-top: 2rem;
+}
+
+.testimonial h3 {
+    text-align: center;
+}
+
+.contenido-principal h2 {
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.contenido-principal p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .nuestra-empresa {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .nuestra-empresa .sobre-nosotros {
+        flex: 0 0 60%;
+        order: 1;
+    }
+    
+    .nuestra-empresa .img-nosotros {
+        flex: 0 0 calc(40%-1rem);
+        order: 2;
+    }
+
+    .nuestra-empresa .img-nosotros{
+        margin-left: 1rem;
+    }
+
+    .mision-vision {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .mision {
+        flex: 0 0 50%;
+        padding: 1rem;
+    }
+
+    .vision {
+        flex: 0 0 50%;
+        padding: 1rem;
+    }
+}
+
+.nuestra-empresa .sobre-nosotros {
+    display: block;
+    width: 100%;
+}
+
+.nuestra-empresa .img-nosotros img {
+    display: block;
+    margin: 0 auto;
+}
+
+.politicas-calidad {
+    padding: 2rem;
+}
+
+input:not([type="submit"]), 
+textarea, 
+select {
+    background-color: #fff;
+}
+
+form.contacto {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.img-servicio {
+    width: 100%;
+}
+
+.img-servicio img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media(max-width: 768px) {
+    .testimonial {
+        padding: 0.5rem;
+        font-size: 1.6rem;
+    }
+
+    .testimonial h3 {
+        font-size: 2rem;
+    }
+}
+
+.banner-img {
+    display: inline-block;
+    width: calc(50% - 1rem);
+    padding: 1rem;
+}
