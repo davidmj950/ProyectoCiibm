@@ -309,13 +309,14 @@ h4 {
 }
 
 .menu_bar {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
 }
 
 .menu_bar a {
     display: block;
-    text-align: right;
+    text-align: left;
     padding: 1rem;
     color:#fff;
     text-decoration: none;
