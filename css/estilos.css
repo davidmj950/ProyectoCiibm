@@ -476,6 +476,11 @@ h4 {
     text-transform: uppercase;
 }
 
+.icono h3 a {
+    text-decoration: none;
+    color: #502707;
+}
+
 .icono p {
     line-height: 1.6;
     font-size: 1.5rem;
@@ -594,7 +599,7 @@ h4 {
 
 /* Testimoniales */
 .testimonial {
-    background-color: #2caae4;
+    background-color: #71B100;
     font-size: 2.4rem;
     line-height: 3.5rem;
     padding: 2rem;

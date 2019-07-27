@@ -34,6 +34,7 @@
     .nuestra-empresa .sobre-nosotros {
         flex: 0 0 60%;
         order: 1;
+        text-align: justify;
     }
     
     .nuestra-empresa .img-nosotros {
@@ -68,6 +69,10 @@
     width: 100%;
 }
 
+.nuestra-empresa .sobre-nosotros p {
+    text-align: justify;
+}
+
 .nuestra-empresa .img-nosotros img {
     display: block;
     margin: 0 auto;
@@ -75,6 +80,10 @@
 
 .politicas-calidad {
     padding: 2rem;
+}
+
+.politicas-calidad p {
+    text-align: justify;
 }
 
 input:not([type="submit"]), 
@@ -113,4 +122,8 @@ form.contacto {
     display: inline-block;
     width: calc(50% - 1rem);
     padding: 1rem;
+}
+
+.importacion-exportacion p {
+    text-align: justify;
 }
