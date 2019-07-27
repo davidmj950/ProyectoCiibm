@@ -127,3 +127,15 @@ form.contacto {
 .importacion-exportacion p {
     text-align: justify;
 }
+
+.politicas-calidad p {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-justify p {
+    text-align: justify !important;
+}
